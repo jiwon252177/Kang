@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>나의 홈페이지</title>
+    <style>
+        body {
+            background-color: black;
+            color: green;
+            text-align: center;
+            font-size: 36px;
+            padding-top: 200px;
+        }
+        
+        .star {
+            color: green;
+            font-size: 50px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div>★</div>
+    <div>강혁!!!!!!</div>
+    <div>★</div>
+    
+    <script>
+        var starElements = document.getElementsByClassName("star");
+        for (var i = 0; i < starElements.length; i++) {
+            starElements[i].innerHTML = "★";
+        }
+    </script>
+</body>
+</html>
